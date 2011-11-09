@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5809BC2613A3ECB9000E494B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5809BC2513A3ECB9000E494B /* WebKit.framework */; };
+		5809BC2A13A3F9BE000E494B /* VKAPICaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5809BC2913A3F9BE000E494B /* VKAPICaller.m */; };
+		58AFEB9813A532CE00CB301F /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8013A532CA00CB301F /* NSObject+SBJson.m */; };
+		58AFEB9913A532CE00CB301F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8313A532CA00CB301F /* SBJsonParser.m */; };
+		58AFEB9A13A532CE00CB301F /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8513A532CA00CB301F /* SBJsonStreamParser.m */; };
+		58AFEB9B13A532CE00CB301F /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8713A532CB00CB301F /* SBJsonStreamParserAccumulator.m */; };
+		58AFEB9C13A532CE00CB301F /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8913A532CB00CB301F /* SBJsonStreamParserAdapter.m */; };
+		58AFEB9D13A532CE00CB301F /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8B13A532CB00CB301F /* SBJsonStreamParserState.m */; };
+		58AFEB9E13A532CE00CB301F /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8D13A532CB00CB301F /* SBJsonStreamWriter.m */; };
+		58AFEB9F13A532CE00CB301F /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB8F13A532CC00CB301F /* SBJsonStreamWriterAccumulator.m */; };
+		58AFEBA013A532CE00CB301F /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB9113A532CC00CB301F /* SBJsonStreamWriterState.m */; };
+		58AFEBA113A532CE00CB301F /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB9313A532CD00CB301F /* SBJsonTokeniser.m */; };
+		58AFEBA213A532CE00CB301F /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB9513A532CD00CB301F /* SBJsonUTF8Stream.m */; };
+		58AFEBA313A532CE00CB301F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEB9713A532CD00CB301F /* SBJsonWriter.m */; };
+		58AFEBC913A53E7F00CB301F /* BorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBC113A53E7F00CB301F /* BorderlessWindow.m */; };
+		58AFEBCA13A53E7F00CB301F /* JGMenuWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58AFEBC213A53E7F00CB301F /* JGMenuWindow.xib */; };
+		58AFEBCB13A53E7F00CB301F /* JGMenuWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBC413A53E7F00CB301F /* JGMenuWindowController.m */; };
+		58AFEBCC13A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBC613A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.m */; };
+		58AFEBCD13A53E7F00CB301F /* RoundWindowFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBC813A53E7F00CB301F /* RoundWindowFrameView.m */; };
+		58AFEBD413A53E8F00CB301F /* DetectingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBCF13A53E8F00CB301F /* DetectingTableView.m */; };
+		58AFEBD513A53E8F00CB301F /* JGMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBD113A53E8F00CB301F /* JGMenuItem.m */; };
+		58AFEBD613A53E8F00CB301F /* PaddedTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBD313A53E8F00CB301F /* PaddedTextFieldCell.m */; };
+		58AFEBDB13A53ED500CB301F /* CustomStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBD813A53ED200CB301F /* CustomStatusItemView.m */; };
+		58AFEBDC13A53ED500CB301F /* FullMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBDA13A53ED400CB301F /* FullMenuView.m */; };
+		58AFEBE213A55F7A00CB301F /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBDF13A55F7A00CB301F /* AudioStreamer.m */; };
+		58AFEBE313A55F7A00CB301F /* MacStreamingPlayerController.txt in Sources */ = {isa = PBXBuildFile; fileRef = 58AFEBE113A55F7A00CB301F /* MacStreamingPlayerController.txt */; };
+		58AFEBE513A5635700CB301F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AFEBE413A5635600CB301F /* AudioToolbox.framework */; };
+		58C46CAA1449DDD800E03520 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C46CA91449DDD800E03520 /* BGHUDAppKit.framework */; };
+		58CEA4F513A3E4EA00CB87CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CEA4F413A3E4EA00CB87CE /* Cocoa.framework */; };
+		58CEA4FF13A3E4EB00CB87CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58CEA4FD13A3E4EB00CB87CE /* InfoPlist.strings */; };
+		58CEA50213A3E4EB00CB87CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CEA50113A3E4EB00CB87CE /* main.m */; };
+		58CEA50513A3E4EB00CB87CE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 58CEA50313A3E4EB00CB87CE /* Credits.rtf */; };
+		58CEA50813A3E4EB00CB87CE /* VKMenuMusicAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CEA50713A3E4EB00CB87CE /* VKMenuMusicAppDelegate.m */; };
+		58CEA50B13A3E4EB00CB87CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CEA50913A3E4EB00CB87CE /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58AFEBF813A56FB800CB301F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5809BC2513A3ECB9000E494B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		5809BC2813A3F9BE000E494B /* VKAPICaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAPICaller.h; sourceTree = "<group>"; };
+		5809BC2913A3F9BE000E494B /* VKAPICaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAPICaller.m; sourceTree = "<group>"; };
+		58AFEB7F13A532CA00CB301F /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		58AFEB8013A532CA00CB301F /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		58AFEB8113A532CA00CB301F /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		58AFEB8213A532CA00CB301F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		58AFEB8313A532CA00CB301F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		58AFEB8413A532CA00CB301F /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		58AFEB8513A532CA00CB301F /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		58AFEB8613A532CA00CB301F /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		58AFEB8713A532CB00CB301F /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		58AFEB8813A532CB00CB301F /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		58AFEB8913A532CB00CB301F /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		58AFEB8A13A532CB00CB301F /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		58AFEB8B13A532CB00CB301F /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		58AFEB8C13A532CB00CB301F /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		58AFEB8D13A532CB00CB301F /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		58AFEB8E13A532CC00CB301F /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		58AFEB8F13A532CC00CB301F /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		58AFEB9013A532CC00CB301F /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		58AFEB9113A532CC00CB301F /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		58AFEB9213A532CC00CB301F /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		58AFEB9313A532CD00CB301F /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		58AFEB9413A532CD00CB301F /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		58AFEB9513A532CD00CB301F /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		58AFEB9613A532CD00CB301F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		58AFEB9713A532CD00CB301F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		58AFEBC013A53E7F00CB301F /* BorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
+		58AFEBC113A53E7F00CB301F /* BorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
+		58AFEBC213A53E7F00CB301F /* JGMenuWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGMenuWindow.xib; sourceTree = "<group>"; };
+		58AFEBC313A53E7F00CB301F /* JGMenuWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMenuWindowController.h; sourceTree = "<group>"; };
+		58AFEBC413A53E7F00CB301F /* JGMenuWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMenuWindowController.m; sourceTree = "<group>"; };
+		58AFEBC513A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+PXRoundedRectangleAdditions.h"; sourceTree = "<group>"; };
+		58AFEBC613A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+PXRoundedRectangleAdditions.m"; sourceTree = "<group>"; };
+		58AFEBC713A53E7F00CB301F /* RoundWindowFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundWindowFrameView.h; sourceTree = "<group>"; };
+		58AFEBC813A53E7F00CB301F /* RoundWindowFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundWindowFrameView.m; sourceTree = "<group>"; };
+		58AFEBCE13A53E8F00CB301F /* DetectingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectingTableView.h; sourceTree = "<group>"; };
+		58AFEBCF13A53E8F00CB301F /* DetectingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectingTableView.m; sourceTree = "<group>"; };
+		58AFEBD013A53E8F00CB301F /* JGMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGMenuItem.h; sourceTree = "<group>"; };
+		58AFEBD113A53E8F00CB301F /* JGMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGMenuItem.m; sourceTree = "<group>"; };
+		58AFEBD213A53E8F00CB301F /* PaddedTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaddedTextFieldCell.h; sourceTree = "<group>"; };
+		58AFEBD313A53E8F00CB301F /* PaddedTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaddedTextFieldCell.m; sourceTree = "<group>"; };
+		58AFEBD713A53ED000CB301F /* CustomStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStatusItemView.h; sourceTree = "<group>"; };
+		58AFEBD813A53ED200CB301F /* CustomStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStatusItemView.m; sourceTree = "<group>"; };
+		58AFEBD913A53ED300CB301F /* FullMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullMenuView.h; sourceTree = "<group>"; };
+		58AFEBDA13A53ED400CB301F /* FullMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullMenuView.m; sourceTree = "<group>"; };
+		58AFEBDE13A55F7A00CB301F /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		58AFEBDF13A55F7A00CB301F /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		58AFEBE113A55F7A00CB301F /* MacStreamingPlayerController.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MacStreamingPlayerController.txt; sourceTree = "<group>"; };
+		58AFEBE413A5635600CB301F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		58C46CA91449DDD800E03520 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BGHUDAppKit.framework; path = VKMenuMusic/Frameworks/BGHUDAppKit.framework; sourceTree = "<group>"; };
+		58CEA4F013A3E4EA00CB87CE /* VKMenuMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKMenuMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CEA4F413A3E4EA00CB87CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		58CEA4F713A3E4EB00CB87CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		58CEA4F813A3E4EB00CB87CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58CEA4F913A3E4EB00CB87CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58CEA4FC13A3E4EB00CB87CE /* VKMenuMusic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VKMenuMusic-Info.plist"; sourceTree = "<group>"; };
+		58CEA4FE13A3E4EB00CB87CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58CEA50013A3E4EB00CB87CE /* VKMenuMusic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VKMenuMusic-Prefix.pch"; sourceTree = "<group>"; };
+		58CEA50113A3E4EB00CB87CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58CEA50413A3E4EB00CB87CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		58CEA50613A3E4EB00CB87CE /* VKMenuMusicAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKMenuMusicAppDelegate.h; sourceTree = "<group>"; };
+		58CEA50713A3E4EB00CB87CE /* VKMenuMusicAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKMenuMusicAppDelegate.m; sourceTree = "<group>"; };
+		58CEA50A13A3E4EB00CB87CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58CEA4ED13A3E4EA00CB87CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AFEBE513A5635700CB301F /* AudioToolbox.framework in Frameworks */,
+				5809BC2613A3ECB9000E494B /* WebKit.framework in Frameworks */,
+				58CEA4F513A3E4EA00CB87CE /* Cocoa.framework in Frameworks */,
+				58C46CAA1449DDD800E03520 /* BGHUDAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AFEBA513A532D600CB301F /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				58AFEB7F13A532CA00CB301F /* NSObject+SBJson.h */,
+				58AFEB8013A532CA00CB301F /* NSObject+SBJson.m */,
+				58AFEB8113A532CA00CB301F /* SBJson.h */,
+				58AFEB8213A532CA00CB301F /* SBJsonParser.h */,
+				58AFEB8313A532CA00CB301F /* SBJsonParser.m */,
+				58AFEB8413A532CA00CB301F /* SBJsonStreamParser.h */,
+				58AFEB8513A532CA00CB301F /* SBJsonStreamParser.m */,
+				58AFEB8613A532CA00CB301F /* SBJsonStreamParserAccumulator.h */,
+				58AFEB8713A532CB00CB301F /* SBJsonStreamParserAccumulator.m */,
+				58AFEB8813A532CB00CB301F /* SBJsonStreamParserAdapter.h */,
+				58AFEB8913A532CB00CB301F /* SBJsonStreamParserAdapter.m */,
+				58AFEB8A13A532CB00CB301F /* SBJsonStreamParserState.h */,
+				58AFEB8B13A532CB00CB301F /* SBJsonStreamParserState.m */,
+				58AFEB8C13A532CB00CB301F /* SBJsonStreamWriter.h */,
+				58AFEB8D13A532CB00CB301F /* SBJsonStreamWriter.m */,
+				58AFEB8E13A532CC00CB301F /* SBJsonStreamWriterAccumulator.h */,
+				58AFEB8F13A532CC00CB301F /* SBJsonStreamWriterAccumulator.m */,
+				58AFEB9013A532CC00CB301F /* SBJsonStreamWriterState.h */,
+				58AFEB9113A532CC00CB301F /* SBJsonStreamWriterState.m */,
+				58AFEB9213A532CC00CB301F /* SBJsonTokeniser.h */,
+				58AFEB9313A532CD00CB301F /* SBJsonTokeniser.m */,
+				58AFEB9413A532CD00CB301F /* SBJsonUTF8Stream.h */,
+				58AFEB9513A532CD00CB301F /* SBJsonUTF8Stream.m */,
+				58AFEB9613A532CD00CB301F /* SBJsonWriter.h */,
+				58AFEB9713A532CD00CB301F /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		58AFEBBE13A53E5F00CB301F /* JGMenuWindow */ = {
+			isa = PBXGroup;
+			children = (
+				58AFEBD713A53ED000CB301F /* CustomStatusItemView.h */,
+				58AFEBD813A53ED200CB301F /* CustomStatusItemView.m */,
+				58AFEBD913A53ED300CB301F /* FullMenuView.h */,
+				58AFEBDA13A53ED400CB301F /* FullMenuView.m */,
+				58AFEBCE13A53E8F00CB301F /* DetectingTableView.h */,
+				58AFEBCF13A53E8F00CB301F /* DetectingTableView.m */,
+				58AFEBD013A53E8F00CB301F /* JGMenuItem.h */,
+				58AFEBD113A53E8F00CB301F /* JGMenuItem.m */,
+				58AFEBD213A53E8F00CB301F /* PaddedTextFieldCell.h */,
+				58AFEBD313A53E8F00CB301F /* PaddedTextFieldCell.m */,
+				58AFEBC013A53E7F00CB301F /* BorderlessWindow.h */,
+				58AFEBC113A53E7F00CB301F /* BorderlessWindow.m */,
+				58AFEBC213A53E7F00CB301F /* JGMenuWindow.xib */,
+				58AFEBC313A53E7F00CB301F /* JGMenuWindowController.h */,
+				58AFEBC413A53E7F00CB301F /* JGMenuWindowController.m */,
+				58AFEBC513A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.h */,
+				58AFEBC613A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.m */,
+				58AFEBC713A53E7F00CB301F /* RoundWindowFrameView.h */,
+				58AFEBC813A53E7F00CB301F /* RoundWindowFrameView.m */,
+			);
+			name = JGMenuWindow;
+			sourceTree = "<group>";
+		};
+		58AFEBDD13A55F6000CB301F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				58AFEBDE13A55F7A00CB301F /* AudioStreamer.h */,
+				58AFEBDF13A55F7A00CB301F /* AudioStreamer.m */,
+				58AFEBE113A55F7A00CB301F /* MacStreamingPlayerController.txt */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		58CEA4E513A3E4EA00CB87CE = {
+			isa = PBXGroup;
+			children = (
+				58CEA4FA13A3E4EB00CB87CE /* VKMenuMusic */,
+				58CEA4F313A3E4EA00CB87CE /* Frameworks */,
+				58CEA4F113A3E4EA00CB87CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58CEA4F113A3E4EA00CB87CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58CEA4F013A3E4EA00CB87CE /* VKMenuMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58CEA4F313A3E4EA00CB87CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C46CA91449DDD800E03520 /* BGHUDAppKit.framework */,
+				58AFEBE413A5635600CB301F /* AudioToolbox.framework */,
+				5809BC2513A3ECB9000E494B /* WebKit.framework */,
+				58CEA4F413A3E4EA00CB87CE /* Cocoa.framework */,
+				58CEA4F613A3E4EB00CB87CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58CEA4F613A3E4EB00CB87CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58CEA4F713A3E4EB00CB87CE /* AppKit.framework */,
+				58CEA4F813A3E4EB00CB87CE /* CoreData.framework */,
+				58CEA4F913A3E4EB00CB87CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		58CEA4FA13A3E4EB00CB87CE /* VKMenuMusic */ = {
+			isa = PBXGroup;
+			children = (
+				58CEA50613A3E4EB00CB87CE /* VKMenuMusicAppDelegate.h */,
+				58CEA50713A3E4EB00CB87CE /* VKMenuMusicAppDelegate.m */,
+				5809BC2813A3F9BE000E494B /* VKAPICaller.h */,
+				5809BC2913A3F9BE000E494B /* VKAPICaller.m */,
+				58AFEBDD13A55F6000CB301F /* Player */,
+				58AFEBBE13A53E5F00CB301F /* JGMenuWindow */,
+				58AFEBA513A532D600CB301F /* SBJSON */,
+				58CEA50913A3E4EB00CB87CE /* MainMenu.xib */,
+				58CEA4FB13A3E4EB00CB87CE /* Supporting Files */,
+			);
+			path = VKMenuMusic;
+			sourceTree = "<group>";
+		};
+		58CEA4FB13A3E4EB00CB87CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58CEA4FC13A3E4EB00CB87CE /* VKMenuMusic-Info.plist */,
+				58CEA4FD13A3E4EB00CB87CE /* InfoPlist.strings */,
+				58CEA50013A3E4EB00CB87CE /* VKMenuMusic-Prefix.pch */,
+				58CEA50113A3E4EB00CB87CE /* main.m */,
+				58CEA50313A3E4EB00CB87CE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58CEA4EF13A3E4EA00CB87CE /* VKMenuMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CEA50E13A3E4EB00CB87CE /* Build configuration list for PBXNativeTarget "VKMenuMusic" */;
+			buildPhases = (
+				58CEA4EC13A3E4EA00CB87CE /* Sources */,
+				58CEA4ED13A3E4EA00CB87CE /* Frameworks */,
+				58CEA4EE13A3E4EA00CB87CE /* Resources */,
+				58AFEBF813A56FB800CB301F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKMenuMusic;
+			productName = VKMenuMusic;
+			productReference = 58CEA4F013A3E4EA00CB87CE /* VKMenuMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58CEA4E713A3E4EA00CB87CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 58CEA4EA13A3E4EA00CB87CE /* Build configuration list for PBXProject "VKMenuMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58CEA4E513A3E4EA00CB87CE;
+			productRefGroup = 58CEA4F113A3E4EA00CB87CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58CEA4EF13A3E4EA00CB87CE /* VKMenuMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58CEA4EE13A3E4EA00CB87CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CEA4FF13A3E4EB00CB87CE /* InfoPlist.strings in Resources */,
+				58CEA50513A3E4EB00CB87CE /* Credits.rtf in Resources */,
+				58CEA50B13A3E4EB00CB87CE /* MainMenu.xib in Resources */,
+				58AFEBCA13A53E7F00CB301F /* JGMenuWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58CEA4EC13A3E4EA00CB87CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CEA50213A3E4EB00CB87CE /* main.m in Sources */,
+				58CEA50813A3E4EB00CB87CE /* VKMenuMusicAppDelegate.m in Sources */,
+				5809BC2A13A3F9BE000E494B /* VKAPICaller.m in Sources */,
+				58AFEB9813A532CE00CB301F /* NSObject+SBJson.m in Sources */,
+				58AFEB9913A532CE00CB301F /* SBJsonParser.m in Sources */,
+				58AFEB9A13A532CE00CB301F /* SBJsonStreamParser.m in Sources */,
+				58AFEB9B13A532CE00CB301F /* SBJsonStreamParserAccumulator.m in Sources */,
+				58AFEB9C13A532CE00CB301F /* SBJsonStreamParserAdapter.m in Sources */,
+				58AFEB9D13A532CE00CB301F /* SBJsonStreamParserState.m in Sources */,
+				58AFEB9E13A532CE00CB301F /* SBJsonStreamWriter.m in Sources */,
+				58AFEB9F13A532CE00CB301F /* SBJsonStreamWriterAccumulator.m in Sources */,
+				58AFEBA013A532CE00CB301F /* SBJsonStreamWriterState.m in Sources */,
+				58AFEBA113A532CE00CB301F /* SBJsonTokeniser.m in Sources */,
+				58AFEBA213A532CE00CB301F /* SBJsonUTF8Stream.m in Sources */,
+				58AFEBA313A532CE00CB301F /* SBJsonWriter.m in Sources */,
+				58AFEBC913A53E7F00CB301F /* BorderlessWindow.m in Sources */,
+				58AFEBCB13A53E7F00CB301F /* JGMenuWindowController.m in Sources */,
+				58AFEBCC13A53E7F00CB301F /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */,
+				58AFEBCD13A53E7F00CB301F /* RoundWindowFrameView.m in Sources */,
+				58AFEBD413A53E8F00CB301F /* DetectingTableView.m in Sources */,
+				58AFEBD513A53E8F00CB301F /* JGMenuItem.m in Sources */,
+				58AFEBD613A53E8F00CB301F /* PaddedTextFieldCell.m in Sources */,
+				58AFEBDB13A53ED500CB301F /* CustomStatusItemView.m in Sources */,
+				58AFEBDC13A53ED500CB301F /* FullMenuView.m in Sources */,
+				58AFEBE213A55F7A00CB301F /* AudioStreamer.m in Sources */,
+				58AFEBE313A55F7A00CB301F /* MacStreamingPlayerController.txt in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58CEA4FD13A3E4EB00CB87CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CEA4FE13A3E4EB00CB87CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58CEA50313A3E4EB00CB87CE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CEA50413A3E4EB00CB87CE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		58CEA50913A3E4EB00CB87CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CEA50A13A3E4EB00CB87CE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58CEA50C13A3E4EB00CB87CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		58CEA50D13A3E4EB00CB87CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		58CEA50F13A3E4EB00CB87CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/VKMenuMusic/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKMenuMusic/VKMenuMusic-Prefix.pch";
+				INFOPLIST_FILE = "VKMenuMusic/VKMenuMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58CEA51013A3E4EB00CB87CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop\"",
+					"\"$(SRCROOT)/VKMenuMusic/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VKMenuMusic/VKMenuMusic-Prefix.pch";
+				INFOPLIST_FILE = "VKMenuMusic/VKMenuMusic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58CEA4EA13A3E4EA00CB87CE /* Build configuration list for PBXProject "VKMenuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CEA50C13A3E4EB00CB87CE /* Debug */,
+				58CEA50D13A3E4EB00CB87CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CEA50E13A3E4EB00CB87CE /* Build configuration list for PBXNativeTarget "VKMenuMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CEA50F13A3E4EB00CB87CE /* Debug */,
+				58CEA51013A3E4EB00CB87CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58CEA4E713A3E4EA00CB87CE /* Project object */;
+}
