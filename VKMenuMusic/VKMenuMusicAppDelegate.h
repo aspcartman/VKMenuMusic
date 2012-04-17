@@ -38,6 +38,7 @@
 - (IBAction)sliderMoved:(NSSlider *)aSlider;
 - (IBAction)pause:(id)sender;
 - (IBAction)volumeSliderMoved:(NSSlider*)slider;
+- (IBAction)exit:(id)sender;
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame;
 -(void) gotList:(NSArray *)_list;

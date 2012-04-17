@@ -300,7 +300,7 @@
 		58CEA4E713A3E4EA00CB87CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = 58CEA4EA13A3E4EA00CB87CE /* Build configuration list for PBXProject "VKMenuMusic" */;
 			compatibilityVersion = "Xcode 3.2";

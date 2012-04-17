@@ -145,6 +145,11 @@
     }
 }
 
+- (IBAction)exit:(id)sender {
+	exit(0);
+}
+
+
 - (void)playbackStateChanged:(NSNotification *)aNotification
 {
 	if ([streamer isWaiting])
@@ -204,5 +209,4 @@
     [streamer stop];
     [self destroyStreamer];
 }
-
 @end
